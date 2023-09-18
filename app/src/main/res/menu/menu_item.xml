@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Contacts"
+        android:icon="@drawable/account_box_24"
+        android:title="Home"/>
+
+    <item android:id="@+id/Favorite"
+        android:icon="@drawable/star_border_24"
+        android:title="Categories"/>
+
+    <item android:id="@+id/Groups"
+        android:icon="@drawable/groups_3_24"
+        android:title="Message"/>
+
+</menu>

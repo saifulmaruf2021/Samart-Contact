@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SmartContact" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_orange</item>
+        <item name="colorPrimaryVariant">#FF9800</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FF9800</item>
+        <item name="colorSecondaryVariant">@color/light_orange</item>
+        <item name="colorOnSecondary">@color/light_orange</item>
+        <!-- Status bar color. -->
+
+
+
+
+    </style>
+
+    <style name="Theme.SmartContact" parent="Base.Theme.SmartContact" />
+</resources>
